@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: rgb(2, 8, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+#container{
+    box-shadow: 2px 3px 4px rgb(2, 8, 10, 0.5);
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+
+img{
+    transform-origin: center center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
